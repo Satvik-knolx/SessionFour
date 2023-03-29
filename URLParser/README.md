@@ -1,7 +1,7 @@
 
-#1. Create a URL parser using the concept of Extractors (unapply method) with pattern matching that takes the input (URL) as string and displays the protocol, domain name, and path from the given URL.
+# 1. Create a URL parser using the concept of Extractors (unapply method) with pattern matching that takes the input (URL) as string and displays the protocol, domain name, and path from the given URL.
 
-#2. Write the unit tests for above mentioned URL parser
+# 2. Write the unit tests for above mentioned URL parser
 
 Input
 “https://www.mywebsite.com/home”
@@ -13,7 +13,7 @@ Path: home
 
 This is done using unapply method using extractors
 
-#extractor and unapply
+# extractor and unapply
 
 An extractor in Scala is an object which has an unapply method as one of its members. Often, the extractor object also defines a method apply for building values, but this is not required. An apply method is like a constructor which takes arguments and creates an object, the unapply method takes an object and tries to give back the arguments. The unapply method reverses the construction procedure of the apply method. the unapply method always returns an Option type, it returns either Some[T] (if it could successfully extract the parameter from the given object) or None, which means that the parameters could not be extracted.
 
