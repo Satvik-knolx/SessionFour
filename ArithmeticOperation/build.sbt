@@ -4,7 +4,7 @@ ThisBuild / scalaVersion := "2.13.10"
 
 lazy val root = (project in file("."))
   .settings(
-    name := "Capitalize",
+    name := "ArithmeticOperation",
     idePackagePrefix := Some("com.knoldus")
   )
-libraryDependencies += "org.scalatest" %% "scalatest" % "3.2.15" % Test
+libraryDependencies +="org.scalatest" %% "scalatest" % "3.2.15" % Test
